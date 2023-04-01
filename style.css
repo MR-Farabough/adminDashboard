@@ -43,13 +43,13 @@ button {
 
 .main-container {
     display: grid;
-    grid-template-columns: minmax(auto-fit, 1fr) 4fr 2fr;
+    grid-template-columns: minmax(auto-fit, 225px) 4fr 2fr;
     grid-template-rows: 160px 2fr 1fr;
+    height: 100vh;
 }
 
 .sidebar {
     background-color: var(--blue);
-    color: white;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
     min-width: 225px;
@@ -145,8 +145,20 @@ img.magnifer {
     background-color: white;
 }
 
-.card>img {
-    padding: 0px;
+.text {
+    padding: 10px;
+}
+
+div.card>p {
+    padding: 10px;
+}
+
+.extra-imgs>img {
+    width: 25px;
+}
+
+.card>div.extra-imgs {
+    margin-left: 160px;
 }
 
 .project-text {
