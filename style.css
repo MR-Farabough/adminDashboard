@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+img {
+    width: 50px;
+    height: 50px;
+    color: wheat;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 1fr 4fr 2fr;
