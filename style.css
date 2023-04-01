@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.sidebar {
+    background-color: rgb(44, 153, 255);
+    color: white;
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+}
+
+.header {
+    background-color: white;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+.search {
+    display: flex;
+}
+
+#search-bar {
+    width: minmax(20%, 60%);
+}
+
+.body {
+    background-color: rgb(231, 231, 231);
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
