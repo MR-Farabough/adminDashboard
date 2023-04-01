@@ -43,8 +43,8 @@ button {
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: minmax(auto-fit, 1fr) 4fr 2fr;
+    grid-template-rows: 160px 2fr 1fr;
 }
 
 .sidebar {
