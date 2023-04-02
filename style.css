@@ -178,3 +178,14 @@ div.card>p {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
 }
+
+.card1 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card2 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
