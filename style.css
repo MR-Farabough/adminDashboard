@@ -175,7 +175,7 @@ div.card>p {
 }
 
 .info-card2 {
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
     grid-column: 3 / 4;
 }
 
@@ -185,7 +185,31 @@ div.card>p {
 }
 
 .card2 {
+    display: flex;
     padding: 10px;
+    height: 310px;
+    width: 250px;
     background-color: white;
     border-radius: 10px;
+}
+
+.card2>.avatars>img {
+    padding: 20px;
+}
+
+.tegan {
+    padding-top: 15px;
+}
+
+#tegan-text {
+    padding-bottom: 30px;
+}
+
+.card2>.avatar-text>p {
+    padding-bottom: 40px;
+}
+
+.card2>.avatars {
+    display: flex;
+    flex-direction: column;
 }
